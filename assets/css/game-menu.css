@@ -1,0 +1,158 @@
+footer {
+    width: 78%;
+    height: 7%;
+    position: absolute;
+    bottom: 0%;
+    background-image: url('../img/menu/menu3.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#gameMenu {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 17;
+}
+
+#gameMenu>p.game-menu.p {
+    width: 4%;
+    height: 60%;
+    position: absolute;
+    bottom: -2%;
+	font-size: 0.8em;
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #000;
+	/*text-shadow: -1px -1px #cb8a4d, 1px 1px #d7b48e;*/
+}
+
+#gameMenu>.icon {
+    width: 4%;
+    height:80%;
+    position: absolute;
+    bottom: 10%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameMenu>.icon:hover {
+	background-color: transparent;
+    border: none;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+#gameMenu>.icon.heart {
+    left: 4.5%;
+    background-size: 70% 70%;
+}
+
+#gameMenu>#forHeart {
+    left: 8.5%;
+}
+#gameMenu>#forHeartValue {
+    left: 12.5%;
+}
+
+#gameMenu>.icon.treasure {
+    top: 4.5%;
+    left: 15.5%;
+    background-size: 100% 100%;
+
+}
+
+#gameMenu>#forTreasure {
+    left: 20%;
+}
+
+#gameMenu>#forTreasureValue {
+    left: 24.5%;
+}
+
+#gameMenu>.icon.map {
+    left: 28%;
+    background-size: 90% 80%;
+}
+
+#gameMenu>#forMap {
+    left: 32%;
+}
+
+#gameMenu>#forMapValue {
+    left: 36.2%;
+}
+
+#gameMenu>#forMapValueOf {
+    left: 37.5%;
+}
+
+#gameMenu>.icon.flag {
+    left: 39.4%;
+}
+
+#gameMenu>#forFlag {
+    left: 43%;
+}
+
+#gameMenu>#forFlagValue {
+    left: 47.2%;
+}
+
+#gameMenu>#forFlagValueOf {
+    left: 48.5%;
+}
+
+#gameMenu>#extras {
+    left: 53.5%;
+}
+
+#gameMenu>.icon.bomb {
+    left: 58%;
+}
+
+#gameMenu>#forBombValue {
+    left: 62%;
+}
+
+#gameMenu>.icon.hook {
+    left: 64%;
+}
+
+#gameMenu>#forHookValue {
+    left: 67%;
+}
+
+#gameMenu>.icon.pipe {
+    left: 69%;
+}
+
+#gameMenu>#forPipeValue {
+    left: 72%;
+}
+
+#gameMenu>.icon.player {
+    left: 74.5%;
+    background-size: 100% 100%;
+}
+
+#gameMenu>#forPlayer {
+    left: 78.3%;
+}
+
+#gameMenu>#forPlayerValue {
+	font-size: 0.8em;
+    left: 83%;
+	bottom: -1%;
+}

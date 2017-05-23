@@ -1,0 +1,105 @@
+#goodNews, #badNews {
+    position: absolute;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 15;
+
+}
+
+p[class*="news"] {
+    position: absolute;
+    z-index: 15;
+}
+
+#goodNews {
+    width: 20%;
+    height: 30%;
+    top: 33%;
+    left: 40%;
+    background-image: url('../img/questions/pirate-1.png');
+    animation: divanimationleft 2s linear forwards;
+}
+
+#goodNews p.good-news {
+    width: 70%;
+    height: 28%;
+    top: 47%;
+    left: 15%;
+    animation: animationquestion 3s linear forwards;
+}
+
+/*Bad news*/
+
+
+#badNews {
+    width: 30%;
+    height: 35%;
+    top: 33%;
+    left: 35%;
+    background-image: url('../img/questions/skull-2.png');
+    animation: divanimationright 2s linear forwards;
+}
+
+#badNews p.bad-news {
+    width: 50%;
+    height: 30%;
+    top: 35%;
+    left: 33.5%;
+    animation: animationquestion 3s linear forwards;
+}
+
+/*Confirm*/
+
+
+#confirm {
+    width: 30%;
+    height: 35%;
+    top: 33%;
+    left: 35%;
+    background-image: url('../img/signs/9.png');
+    animation: divanimationright 2s linear forwards;
+    position: absolute;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 15;
+}
+
+#confirm p.confirm {
+    position: absolute;
+    font-size: 3em;
+    width: 80%;
+    height: 50%;
+    top: 20%;
+    left: 10%;
+    z-index: 16;
+    animation: animationquestion 3s linear forwards;
+}
+
+#confirm .yes.confirm {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    bottom: 10%;
+    left: 30%;
+    animation: animationquestion 3s linear forwards;
+}
+#confirm .no.confirm {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    bottom: 10%;
+    right: 30%;
+    animation: animationquestion 3s linear forwards;
+}
+.no, .yes {
+    background-color: #d7b17d;
+    border-color: #816053;
+    font-family: 'rapscallionregular', Arial, sans-serif;
+    color: #000;
+    text-shadow: -1px -1px #cb8a4d, 1px 1px #d7b48e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}

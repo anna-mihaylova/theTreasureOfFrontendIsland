@@ -1,0 +1,110 @@
+#info {
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    background-image: url('../img/questions/3.png');
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 15;
+    animation: divanimationleft 3s linear forwards;
+    z-index: 12;
+}
+
+#info div.info-div {
+    width: 17%;
+    height: 17%;
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 15;
+    animation: animationquestion 4s linear forwards;
+}
+
+#info p.info-p {
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    top: 31%;
+    left: 25%;
+    font-size: 1.4em;
+    z-index: 15;
+    animation: animationquestion 5s linear forwards;
+}
+
+#info.rules p.info-p {
+    font-size: 1em;
+}
+
+#info.login div.info-div {
+	background-image: url('../img/pirates/pirate/pirate-login.png');
+}
+
+#info.register div.info-div {
+	background-image: url('../img/pirates/pirate/pirate-register.png');
+}
+
+#info.forgotPassword div.info-div {
+	background-image: url('../img/pirates/pirate/pirate-forgotPassword.png');
+}
+
+#info.rules div.info-div {
+	background-image: url('../img/pirates/pirate/pirate-rules.png');
+}
+
+#info.play div.info-div {
+	background-image: url('../img/pirates/pirate/pirate-play.png');
+}
+
+#info.wins div.info-div {
+	background-image: url('../img/pirates/pirate/pirate-score.png');
+}
+
+#info.bomb div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-bomb.png');
+}
+
+#info.hook div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-hook.png');
+}
+
+#info.pipe div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-pipe.png');
+}
+
+#info.normal div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-sword.png');
+}
+
+#info.speed div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-skull.png');
+}
+
+#info.battle div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-swords.png');
+}
+
+#info.heart div.info-div {
+	background-image: url('../img/icons/nav-icons/heart.png');
+}
+
+#info.treasure div.info-div {
+	background-image: url('../img/icons/nav-icons/treasure.png');
+}
+
+#info.player div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-pirate-name.png');
+}
+
+#info.map div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-ship.png');
+}
+
+#info.flag div.info-div {
+	background-image: url('../img/icons/nav-icons/icon-flag.png');
+}

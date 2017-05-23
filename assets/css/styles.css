@@ -1,0 +1,132 @@
+
+body {
+	font-family: 'rapscallionregular', Arial, sans-serif;
+	/*font-family: 'Pirata One', Arial, cursive;*/
+    font-size: 1.37vw;
+    line-height: 20px;
+    background-color: #69bfd6;
+	overflow: hidden;
+}
+
+main, section, div, p {
+	box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction:  column-reverse;
+    flex-direction: column-reverse;
+}
+
+section {
+    width: 99.9%;
+    height: 99.8%;
+    position: absolute;
+    top:  0px;
+    left: 0px;
+    z-index: 1;
+	background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+section .flex-item {
+	-webkit-flex: auto;
+	flex: auto;
+    z-index: 2;
+}
+
+section > #map {
+    width: 100%;
+    height: 100%;
+	position: relative;
+}
+
+img {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+  transition: color .4s;
+  color: #2c1d16;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #604c42;
+}
+
+a:active {
+  transition: color .3s;
+  color: #2c1d16;
+}
+
+canvas {
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	bottom: 10%;
+	left: 14%;
+	z-index: 2;
+}
+
+canvas#playerCanvas{
+	z-index: 3;
+}
+
+canvas#shipPiratCanvas{
+	z-index: 4;
+}
+
+p {
+	height: auto;
+	text-align: center;
+	line-height: 1em;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+	color: #2c1d16;
+	text-align: center;
+    letter-spacing: 2px;
+}
+
+p.padding{
+	padding: 0.5em;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.relative {
+    position: relative;
+}
+
+.hidden {
+	display: none;
+}
+#read{
+	font-family: 'rapscallionregular', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #69bfd6;
+}
+#read{
+    width: 600px;
+	height: 400px;
+	margin: auto;
+}

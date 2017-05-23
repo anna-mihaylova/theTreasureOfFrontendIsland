@@ -1,0 +1,116 @@
+.cloud{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+}
+
+.first.cloud{
+    top: 8%;
+    left: 107%;
+    -webkit-animation: animateCloud 325s linear infinite;
+	-moz-animation: animateCloud 325s linear infinite;
+	animation: animateCloud 325s linear infinite;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.second.cloud {
+    top: 28%;
+    left: 134%;
+    -webkit-animation: animateCloud 200s linear infinite;
+	-moz-animation: animateCloud 200s linear infinite;
+	animation: animateCloud 200s linear infinite;
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.third.cloud {
+    top: 37%;
+    left: 135%;
+    -webkit-animation: animateCloud 353s linear infinite;
+	-moz-animation: animateCloud 353s linear infinite;
+	animation: animateCloud 353s linear infinite;
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.forth.cloud {
+    bottom: 8%;
+    left: 156%;
+    -webkit-animation: animateCloud 173s linear infinite;
+	-moz-animation: animateCloud 173s linear infinite;
+	animation: animateCloud 173s linear infinite;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.fifth.cloud {
+    bottom: 2%;
+    left: 123%;
+    -webkit-animation: animateCloud 170s linear infinite;
+	-moz-animation: animateCloud 170s linear infinite;
+	animation: animateCloud 170s linear infinite;
+	-webkit-transform: scale(0.77);
+	-moz-transform: scale(0.77);
+	transform: scale(0.77);
+}
+
+.sixth.cloud {
+    bottom: 23%;
+    left: 190%;
+    -webkit-animation: animateCloud 297s linear infinite;
+	-moz-animation: animateCloud 297s linear infinite;
+	animation: animateCloud 297s linear infinite;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.seventh.cloud {
+    bottom: 33%;
+    left: 100%;
+    -webkit-animation: animateCloud 297s linear infinite;
+	-moz-animation: animateCloud 297s linear infinite;
+	animation: animateCloud 297s linear infinite;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.eight.cloud {
+    top: 3%;
+    left: 194%;
+    -webkit-animation: animateCloud 405s linear infinite;
+	-moz-animation: animateCloud 397s linear infinite;
+	animation: animateCloud 397s linear infinite;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.ninth.cloud {
+    bottom: 13%;
+    left: 250%;
+    -webkit-animation: animateCloud 197s linear infinite;
+	-moz-animation: animateCloud 197s linear infinite;
+	animation: animateCloud 197s linear infinite;
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.tenth.cloud {
+    bottom: 3%;
+    left: 103%;
+    -webkit-animation: animateCloud 397s linear infinite;
+	-moz-animation: animateCloud 397s linear infinite;
+	animation: animateCloud 397s linear infinite;
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	transform: scale(1.3);
+}

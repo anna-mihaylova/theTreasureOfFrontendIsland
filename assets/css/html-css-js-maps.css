@@ -1,0 +1,133 @@
+.maps>#mainMenu {
+    display: block;
+    width: 11%;
+    height: 45%;
+    top: 44%;
+    left: 87%;
+}
+
+#htmlMap>#map, #cssMap>#map, #jsMap>#map {
+    width: 65%;
+    height: 100%;
+    margin-left: 10%;
+    background-image: url('../img/map/maps/map.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#htmlMap>.sign, #cssMap>.sign, #jsMap>.sign {
+    width: 23%;
+    height: 70%;
+    position: absolute;
+    bottom: 1%;
+    right: 2.5%;
+    background-image: url('../img/signs/7.png');
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 12;
+}
+
+#htmlMap>.logo, #cssMap>.logo, #jsMap>.logo {
+    width: 5%;
+    height: 9%;
+    top: 32%;
+    right: 6%;
+    opacity: 0.7;
+    position: absolute;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 13;
+}
+
+#htmlMap>.ship, #cssMap>.ship, #jsMap>.ship {
+    width: 18%;
+    height: 36%;
+    top: 22%;
+    left: 14%;
+
+}
+
+#htmlMap>.treasure, #cssMap>.treasure, #jsMap>.treasure {
+    width: 7%;
+    height: 9%;
+    top: 20%;
+    left: 38%;
+}
+
+#htmlMap>.animal, #cssMap>.animal, #jsMap>.animal {
+    width: 9%;
+    height: 11%;
+    position: absolute;
+    bottom: 20%;
+    left: 19%;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+    -webkit-animation: breathing 7s ease-out infinite normal;
+     animation: breathing 7s ease-out infinite normal;
+}
+
+#htmlMap>#map-h1, #cssMap>#map-h1, #jsMap>#map-h1 {
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    bottom: 24%;
+    left: 20.5%;
+	z-index: 15;
+	font-size: 0.9em;
+	line-height: 11px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#cssMap>#map-h1 {
+	font-size: 0.8em;
+
+}
+
+#jsMap>#map-h1 {
+	bottom: 22.5%;
+    left: 19.5%;
+}
+#htmlMap>#map-h1 {
+	bottom: 23.7%;
+    left: 20%;
+}
+
+/*HTML map page*/
+
+
+#htmlMap>.logo {
+    background-image: url('../img/icons/icon-maps/htmlIcon.png');
+}
+
+#htmlMap>.animal {
+    background-image: url('../img/pirates/pirate-parrot/parrot-13.png');
+}
+
+/*CSS map page*/
+
+
+#cssMap>.logo {
+    background-image: url('../img/icons/icon-maps/cssIcon.png');
+}
+
+#cssMap>.animal {
+    background-image: url('../img/pirates/pirate-dodo/dodo-2.png');
+}
+
+
+/*JS map page*/
+
+
+#jsMap>.logo {
+    background-image: url('../img/icons/icon-maps/jsIcon.png');
+}
+
+#jsMap>.animal {
+    width: 9%;
+    background-image: url('../img/pirates/pirate-shark/shark-7.png');
+}

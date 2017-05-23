@@ -1,0 +1,179 @@
+#mainMenu {
+    display: block;
+    width: 11%;
+    height: 65%;
+    position: absolute;
+    top: 28%;
+    left: 78%;
+    z-index: 11;
+}
+
+p.main-menu.p {
+    width: 50%;
+    height: 6%;
+	padding: 5%;
+    position: absolute;
+	left: 25%;
+	font-size: 1.9em;
+	text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+	color: #000;
+	text-shadow: -1px -1px #cb8a4d, 1px 1px #d7b48e;
+    background: none;
+}
+
+p.main-menu.p:hover {
+	color: #352822;
+}
+
+.island p.main-menu.p {
+	width: 37%;
+    height: 6%;
+	right: 22%;
+}
+
+.maps p.main-menu.p {
+	width: 34%;
+    height: 6%;
+	left: 20%;
+}
+
+#mainMenu .icon {
+    width: 30%;
+    height: 12%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+    z-index: 30;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+}
+
+.island #mainMenu .icon {
+	width: 27%;
+    height: 10%
+}
+
+.maps #mainMenu .icon {
+	width: 20%;
+    height: 16%;
+}
+
+#mainMenu .icon:hover {
+    background-color: transparent;
+    border: none;
+	-webkit-transform: scale(1.8);
+	-moz-transform: scale(1.8);
+	transform: scale(1.8);
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    transition-duration: 3s;
+}
+
+#divMainMenu>.login {
+    top: 0%;
+	cursor: url('../img/icons/cursor/cursor-6.png'), auto;
+}
+
+.main-menu.login {
+    top: 1%;
+	cursor: url('../img/icons/cursor/cursor-6.png'), auto;
+}
+
+#divMainMenu>.register {
+    top: 16%;
+	cursor: url('../img/icons/cursor/cursor-6.png'), auto;
+}
+
+.first .main-menu.register {
+	left: 18%;
+    top: 19%;
+	cursor: url('../img/icons/cursor/cursor-6.png'), auto;
+}
+.island .main-menu.register, .maps .main-menu.register {
+	font-size: 1.6em;
+	top: 20%;
+
+}
+
+#divMainMenu>.rules {
+    top: 46%;
+    top: 48%;
+	cursor: url('../img/icons/cursor/cursor-2.png'), auto;
+}
+
+.main-menu.rules {
+	cursor: url('../img/icons/cursor/cursor-2.png'), auto;
+}
+
+#divMainMenu>.play {
+    top: 30%;
+	cursor: url('../img/icons/cursor/cursor-20.png'), auto
+}
+
+.main-menu.play {
+    top: 32%;
+	cursor: url('../img/icons/cursor/cursor-20.png'), auto
+}
+
+#divMainMenu>.score {
+    top: 62%;
+	cursor: url('../img/icons/cursor/cursor-23.png'), auto
+}
+
+.main-menu.score {
+    top: 64%;
+	cursor: url('../img/icons/cursor/cursor-23.png'), auto
+}
+
+#divMainMenu>.credits {
+    top: 78%;
+	cursor: url('../img/icons/cursor/cursor-22.png'), auto
+}
+
+.main-menu.credits {
+	left: 22%;
+    top: 80%;
+	cursor: url('../img/icons/cursor/cursor-22.png'), auto
+}
+
+#divMainMenu>.exit {
+    top: 94%;
+	cursor: url('../img/icons/cursor/cursor-7.png'), auto;
+}
+
+.main-menu.exit {
+    top: 95%;
+	cursor: url('../img/icons/cursor/cursor-7.png'), auto
+}
+
+
+#divMainMenu>.icon.normal {
+    top: 1%;
+    background-size: 120% 120%;
+}
+
+#divMainMenu>.p.normal {
+	top: 1%;
+}
+
+#divMainMenu>.icon.speed {
+    top: 17%;
+    background-size: 100% 100%;
+}
+
+#divMainMenu>.p.speed {
+    top: 16%;
+}
+
+#divMainMenu>.icon.battle {
+    top: 31%;
+    background-size: 120% 120%;
+}
+
+#divMainMenu>.p.battle {
+    top: 31%;
+}

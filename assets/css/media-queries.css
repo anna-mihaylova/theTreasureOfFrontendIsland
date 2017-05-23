@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+
+    .first .caption {
+            height: 60%;
+      }
+     .first .parrot {
+          display: none;
+       }
+    .first  #mainMenu {
+             height: 50%;
+             top: 43%;
+       }
+    .first  #bottleMenu {
+            bottom: 4%;
+      }
+
+}

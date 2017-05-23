@@ -1,0 +1,112 @@
+#forUs {
+    width: 60%;
+    height: 100%;
+    top: 1%;
+    left: 19%;
+    background-image: url('../img/for_us/for-us.png');
+    z-index: 15;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    animation: divanimationleft 3s linear forwards;
+}
+
+#forUs div.for-us-container {
+    width: 38%;
+    height: 20%;
+    position: absolute;
+    top: 59%;
+    z-index: 15;
+    animation: divanimationright 4s linear forwards;
+}
+
+#forUs div.for-us-container.ani {
+    left: 13%;
+}
+
+#forUs div.for-us-container.desi {
+    left: 52%;
+}
+
+#forUs div.for-us-container:hover {
+    width: 83%;
+    height: 80%;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 1.4em;
+    background-color: #d63a19;
+    border: 1px solid #000;
+    border-radius: 5%;
+    z-index: 18;
+    animation: containeranimation 1s linear forwards;
+}
+
+/*Info for us picture*/
+
+
+#forUs div.for-us-div.picture {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #000;
+    border-radius: 5%;
+    z-index: 16;
+}
+
+#forUs div.for-us-div.ani.picture {
+    background-image: url('../img/for_us/ani.jpg');
+}
+
+#forUs div.for-us-div.desi.picture {
+    background-image: url('../img/for_us/desi.jpg');
+}
+
+/*Info for us name*/
+
+
+#forUs p.for-us-p.name {
+    width: 60%;
+    height: 15%;
+    position: absolute;
+    font-size: 1.5em;
+    top: 17%;
+    left: 35%;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 16;
+}
+
+/*Info for us name*/
+
+
+#forUs p.for-us-p.presentation {
+    font-size: 0.8em;
+    width: 94%;
+    height: 52%;
+    position: absolute;
+    text-align: justify;
+    top: 57%;
+    left: 3%;
+    z-index: 16;
+}
+
+/*Info for project name*/
+
+
+#forUs p.for-us-p.project {
+    width: 77%;
+    height: 9.5%;
+    position: absolute;
+    top: 84%;
+    left: 15%;
+    z-index: 16;
+    animation: divanimationright 4s linear forwards;
+}

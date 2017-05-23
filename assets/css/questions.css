@@ -1,0 +1,291 @@
+
+p[class*="question"] {
+    font-family: 'leanderregular', Arial, sans-serif;
+    font-size: 0.9em;
+    line-height: 1em;
+    word-wrap: break-word;
+    white-space: normal;
+    position: absolute;
+    z-index: 15;
+    border: 1px inset #565151;
+    border-radius: 5%;
+    display: block;
+    padding: 1%;
+}
+
+p.p.question {
+    animation: animationquestion 2s linear forwards;
+}
+
+p.first.answer {
+    animation: animationquestion 5s linear forwards;
+}
+
+p.second.answer {
+    animation: animationquestion 8s linear forwards;
+
+}
+
+p.third.answer {
+    animation: animationquestion 11s linear forwards;
+}
+
+#normal, #speed, #battle {
+    z-index: 9;
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+/*Questions*/
+
+
+#normal {
+    width: 70%;
+    height: 100%;
+    top: -7%;
+    left: 4%;
+    background-image: url('../img/questions/pirate.png');
+    animation: divanimationleft 3s linear forwards;
+}
+
+#normal p.p.question {
+    width: 65%;
+    height: 14%;
+    top: 39%;
+    left: 18%;
+}
+
+#normal p[class*="answer"] {
+    font-family: 'leanderregular', Arial, sans-serif;
+    font-size: 0.8em;
+    line-height: 1em;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 60%;
+    height: 10%;
+    left: 20.5%;
+    padding: 1%;
+
+}
+
+#normal p.first.answer {
+    top: 55%;
+}
+
+#normal p.second.answer {
+    top: 67%;
+}
+
+#normal p.third.answer {
+    top: 79%;
+}
+
+/*Questions battle*/
+
+
+#battle {
+    width: 75%;
+    height: 90%;
+    top: 3%;
+    left: 2%;
+    background-image: url('../img/questions/swords-1.png');
+    animation: divanimationright 3s linear forwards;
+
+}
+
+#battle p.p.question {
+    width: 64%;
+    height: 20%;
+    top: 30%;
+    left: 18%;
+}
+
+#battle p[class*="answer"] {
+    font-family: 'leanderregular', Arial, sans-serif;
+    line-height: 1em;
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 0.8em;
+    width: 57%;
+    height: 10%;
+    left: 20.5%;
+}
+
+#battle p.first.answer {
+    top: 53%;
+}
+
+#battle p.second.answer {
+    top: 65%;
+}
+
+#battle p.third.answer {
+    top: 77%;
+}
+
+/*Questions speed mode*/
+
+
+#speed {
+    width: 75%;
+    height: 100%;
+    top: 1%;
+    left: 1%;
+    background-image: url('../img/questions/skull-3.png');
+    animation: divanimationtop 2s linear forwards;
+}
+
+#speed p {
+    width: 50%;
+    height: 30%;
+    top: 36%;
+    left: 29%;
+}
+
+#speed p.p.question {
+    width: 60%;
+    height: 20%;
+    top: 25%;
+    left: 29%;
+    animation: divanimationright 3s linear forwards;
+}
+
+#speed p[class*="answer"] {
+    font-family: 'leanderregular', Arial, sans-serif;
+    font-size: 0.8em;
+    line-height: 1em;
+    width: 53%;
+    height: 11%;
+    left: 32%;
+    padding: 1%;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    animation: divanimationtop 4s linear forwards;
+
+}
+
+#speed p.first.answer {
+    top: 50%;
+}
+
+#speed p.second.answer {
+    top: 62%;
+}
+
+#speed p.third.answer {
+    top: 74%;
+}
+
+.bomb-q, .hook-q, .pipe-q {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    right: 1%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bomb-q:hover, .hook-q:hover, .pipe-q:hover {
+    background-color: transparent;
+    border: none;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+.bomb-q {
+    bottom: 15%;
+    right: 1.5%;
+    background-image: url('../img/icons/nav-icons/icon-bomb.png');
+
+}
+
+.pipe-q {
+    bottom: 30%;
+    background-image: url('../img/icons/nav-icons/icon-pipe.png');
+
+}
+
+.hook-q {
+    bottom: 45%;
+    background-image: url('../img/icons/nav-icons/icon-hook.png');
+}
+
+#speed .bomb-q, #speed .hook-q, #speed .pipe-q {
+    right: 5%;
+}
+
+ #speed .bomb-q {
+    bottom: 16%;
+    right: 5.5%;
+}
+
+#battle .bomb-q, #battle .hook-q, #battle .pipe-q {
+    right: 12%;
+}
+
+#battle .bomb-q {
+    bottom: 9%;
+    right: 12.5%;
+}
+
+#battle .pipe-q {
+    bottom: 24%;
+}
+
+#battle .hook-q {
+    bottom: 38%;
+}
+
+
+p[class*="answer"] {
+    font-family: 'leanderregular', Arial, sans-serif;
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 0.6em;
+    position: absolute;
+    z-index: 15;
+    border: 1.5px outset #565151;
+    border-radius: 3%;
+}
+
+p[class*="answer"].hover {
+    border: 1px inset;
+    border-radius: 3%;
+}
+
+.player-answer {
+    border: 2px inset #008000 !important;
+    -webkit-animation: playeranswer 2s ease-in-out alternate infinite !important;
+    -moz-animation: playeranswer 2s ease-in-out alternate infinite !important;
+    animation: playeranswer 2s ease-in-out alternate infinite !important;
+}
+
+/*Correct answer*/
+
+
+.correct-answer {
+    border: 2px inset #008000 !important;
+    -webkit-animation: correctanswer 2s ease-in-out alternate infinite !important;
+    -moz-animation: correctanswer 2s ease-in-out alternate infinite !important;
+    animation: correctanswer 2s ease-in-out alternate infinite !important;
+}
+
+/*Wrong answer*/
+
+
+.wrong-answer {
+    border: 2px inset #bf0101 !important;
+    -webkit-animation: wronganswer 2s ease-in-out alternate infinite !important;
+    -moz-animation: wronganswer 2s ease-in-out alternate infinite !important;
+    animation: wronganswer 2s ease-in-out alternate infinite !important;
+}

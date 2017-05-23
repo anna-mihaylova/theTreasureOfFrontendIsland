@@ -1,0 +1,185 @@
+/*Volcano*/
+
+@-webkit-keyframes fadein {
+    0%   { opacity: 0.2; }
+    100% { opacity: 0.7; }
+}
+
+@-moz-keyframes fadein {
+    0%   { opacity: 0.2; }
+    100% { opacity: 0.7; }
+}
+
+@keyframes fadein {
+    0%   { opacity: 0.2; }
+    100% { opacity: 0.7; }
+}
+
+/*Boat*/
+
+
+@-moz-keyframes swing {
+    0%   {-moz-transform:rotate(-3deg)}
+    50%  {-moz-transform:rotate(3deg)}
+    100% {-moz-transform:rotate(-3deg)}
+}
+
+@-webkit-keyframes swing {
+    0%   {-webkit-transform:rotate(-3deg)}
+    50%  {-webkit-transform:rotate(3deg)}
+    100% {-webkit-transform:rotate(-3deg)}
+}
+
+/*Clouds*/
+
+
+@-webkit-keyframes animateCloud {
+    0%   {margin-right: 1000px;}
+    100% {left: -10%;}
+}
+
+@-moz-keyframes animateCloud {
+    0%   {margin-right: 1000px;}
+    100% {left: -10%;}
+}
+
+/*Animals*/
+
+
+@-webkit-keyframes breathing {
+  0%   {-webkit-transform: scale(0.99);
+         transform: scale(0.99);}
+  25%  {-webkit-transform: scale(1);
+         transform: scale(1);}
+  60%  {-webkit-transform: scale(0.99);
+         transform: scale(0.99);}
+  100% {-webkit-transform: scale(0.99);
+         transform: scale(0.99);}
+}
+
+@keyframes breathing {
+  0%   {-webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+         transform: scale(1.03);}
+  25%  {-webkit-transform: scale(1);
+        -ms-transform: scale(1);
+         transform: scale(1);}
+  60%  {-webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+         transform: scale(1.03);}
+  100% {-webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+         transform: scale(1.03);}
+}
+
+/*Answers*/
+
+/*Answer correct*/
+
+
+@-webkit-keyframes correctanswer {
+    0%   {background: #04ce04;}
+    50%  {background: #01a501;}
+    100% {background: #008000;}
+}
+
+@-moz-keyframes correctanswer {
+    0%   {background: #04ce04;}
+    50%  {background: #01a501;}
+    100% {background: #008000;}
+}
+
+@keyframes correctanswer {
+    0%   {background: #04ce04;}
+    50%  {background: #01a501;}
+    100% {background: #008000;}
+}
+
+/*Answer wrong*/
+
+
+@-webkit-keyframes wronganswer {
+    0%   {background: #f71616;}
+    50%  {background: #fc0505;}
+    100% {background: #bf0101;}
+}
+
+@-moz-keyframes wronganswer {
+    0%   {background: #f71616;}
+    50%  {background: #fc0505;}
+    100% {background: #bf0101;}
+}
+
+@keyframes wronganswer {
+    0%   {background: #f71616;}
+    50%  {background: #fc0505;}
+    100% {background: #bf0101;}
+}
+
+/*Player wrong*/
+
+
+@-webkit-keyframes playeranswer {
+    0%   {border-color: #04ce04;}
+    50%  {border-color: #01a501;}
+    100% {border-color: #008000;}
+}
+
+@-moz-keyframes playeranswer {
+    0%   {border-color: #04ce04;}
+    50%  {border-color: #01a501;}
+    100% {border-color: #008000;}
+}
+
+@keyframes playeranswer {
+    0%   {border-color: #04ce04;}
+    50%  {border-color: #01a501;}
+    100% {border-color: #008000;}
+}
+
+/*Info*/
+
+
+@keyframes containeranimation {
+    from {opacity: 0;
+          transform: translateY(-10px);}
+    to   {opacity: 1;
+          transform : translateY(0);}
+}
+
+/*Info div left*/
+
+
+@keyframes divanimationleft {
+    from {opacity: 0;
+          transform: translateX(-350px);}
+    to   {opacity: 1;
+          transform : translateX(0);}
+}
+
+/*Info div right*/
+
+
+@keyframes divanimationright {
+    from {opacity: 0;
+          transform: translateX(350px);}
+    to   {opacity: 1;
+          transform : translateX(0);}
+}
+
+/*Info div top*/
+
+
+@keyframes divanimationtop {
+    from {opacity: 0;
+          transform: translateY(-350px);}
+    to   {opacity: 1;
+          transform : translateY(0);}
+}
+
+@keyframes animationquestion {
+    0%   {opacity: 0;}
+    85%   {opacity: 0;}
+    90%   {opacity: 0.5;}
+    100% {opacity: 1;}
+}

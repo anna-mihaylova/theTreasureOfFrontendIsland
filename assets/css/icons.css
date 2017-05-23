@@ -1,0 +1,150 @@
+.icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    position: absolute;
+}
+.icon:hover {
+    -webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    transition-duration: 3s;
+	z-index: 15;
+	cursor: url('../img/icons/cursor/cursor-2.png'), auto;
+}
+
+.icon.normal {
+    background-image: url('../img/icons/nav-icons/icon-sword.png');
+}
+
+.icon.speed {
+    background-image: url('../img/icons/nav-icons/icon-skull.png');
+}
+
+.icon.battle {
+    background-image: url('../img/icons/nav-icons/icon-swords.png');
+}
+
+.icon.bomb {
+    background-image: url('../img/icons/nav-icons/icon-bomb.png');
+}
+
+.icon.hook {
+    background-image: url('../img/icons/nav-icons/icon-hook.png');
+}
+
+.icon.pipe {
+    background-image: url('../img/icons/nav-icons/icon-pipe.png');
+}
+
+.icon.map {
+    background-image: url('../img/icons/nav-icons/icon-ship.png');
+}
+
+.icon.play {
+    background-image: url('../img/icons/nav-icons/icon-wheel2.png');
+}
+
+.icon.flag {
+    background-image: url('../img/icons/nav-icons/icon-flag.png');
+}
+
+.icon.heart {
+    background-image: url('../img/icons/nav-icons/heart.png');
+}
+
+.icon.player {
+    background-image: url('../img/icons/nav-icons/icon-pirate-name.png');
+}
+
+.icon.treasure {
+    background-image: url('../img/icons/nav-icons/treasure.png');
+}
+
+.icon.login {
+    background-image: url('../img/icons/main-nav-icons/icon-key.png');
+}
+
+.icon.register {
+    background-image: url('../img/icons/main-nav-icons/icon-feather.png');
+}
+
+.rules {
+    background-image: url('../img/icons/main-nav-icons/icon-treasure-map.png');
+}
+
+.play {
+    background-image: url('../img/icons/main-nav-icons/icon-wheel2.png');
+}
+
+.score {
+    background-image: url('../img/icons/main-nav-icons/icon-torch.png');
+}
+
+.credits {
+    background-image: url('../img/icons/main-nav-icons/icon-letter.png');
+}
+
+.exit {
+    background-image: url('../img/icons/main-nav-icons/icon-skull.png');
+}
+
+.icon.heart {
+    background-image: url('../img/icons/nav-icons/heart.png');
+}
+
+.menu .icon.treasure {
+    background-image: url('../img/icons/nav-icons/treasure.png');
+}
+
+.icon.map {
+    background-image: url('../img/icons/nav-icons/icon-ship.png');
+}
+
+.icon.flag {
+    background-image: url('../img/icons/nav-icons/icon-flag.png');
+}
+
+.icon.bomb {
+    background-image: url('../img/icons/nav-icons/icon-bomb.png');
+}
+
+.icon.hook {
+    background-image: url('../img/icons/nav-icons/icon-hook.png');
+}
+
+.icon.pipe {
+    background-image: url('../img/icons/nav-icons/icon-pipe.png');
+}
+
+.icon.player {
+    background-image: url('../img/icons/nav-icons/icon-pirate-name.png');
+}
+
+.icon.play-games {
+    background-image: url('../img/icons/nav-icons/icon-wheel2.png');
+}
+
+.icon.play-wins {
+    background-image: url('../img/icons/nav-icons/icon-torch.png');
+}
+
+.icon.heart {
+    background-image: url('../img/icons/nav-icons/heart.png');
+}
+
+
+div.form.image.username {
+   background-image: url('../img/icons/icons-form/pirate.png');
+}
+
+div.form.image.password {
+   background-image: url('../img/icons/icons-form/key.png');
+}
+
+div.form.image.email {
+   background-image: url('../img/icons/icons-form/email.png');
+}

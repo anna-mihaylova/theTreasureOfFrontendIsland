@@ -1,0 +1,49 @@
+#first {
+	background-image: url('../img/background/1.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#first>.ship {
+    width: 32%;
+    height: 37%;
+    top: 37%;
+    left: 32%;
+	z-index: 10;
+}
+
+#first>.treasure {
+    width: 12%;
+    height: 18%;
+    top: 72%;
+    left: 11%;
+	background-image: url('../img/treasure/treasure-close-right.png');
+}
+
+#first>.treasure:hover {
+    width: 18%;
+    height: 24%;
+    top: 70%;
+    left: 10%;
+	background-image: url('../img/treasure/treasure-open-full-right.png');
+}
+
+#first>.caption {
+    bottom: 0%;
+    right: 10%;
+}
+
+#first>.parrot {
+    top: 15%;
+    left: 79%;
+}
+
+#first>.dodo {
+    top: 85%;
+    left: 87%;
+}
+
+#first>.shark {
+    top: 70%;
+    left: 53%;
+}

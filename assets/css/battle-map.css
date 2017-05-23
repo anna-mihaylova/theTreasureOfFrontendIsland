@@ -1,0 +1,78 @@
+#battleMap>#map, #battleMap2>#map, #battleMap2Shadow>#map {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+	background-size: 100% 100%;
+}
+
+#battleMap>.sign, #battleMap2>.sign, #battleMap2Shadow>.sign{
+    position: absolute;
+    background-image: url('../img/signs/7.png');
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#battleMap2>.sign, #battleMap2Shadow>.sign, #battleMap>.sign {
+	width: 23%;
+	height: 70%;
+	bottom: 0%;
+	right: 2%;
+}
+
+#battleMap>.logo, #battleMap2>.logo, #battleMap2Shadow>.logo {
+    width: 9%;
+    height: 12%;
+    top: 30%;
+    right: 4%;
+    position: absolute;
+    background-image: url('../img/icons/nav-icons/icon-swords.png');
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+
+#battleMap>.ship, #battleMap2>.ship {
+    width: 8%;
+    height: 12%;
+    top: 74.5%;
+    left: 40%;
+}
+
+
+/*Battle map page*/
+
+
+#battleMap>#map {
+    background-image: url('../img/map/battle-map/battle-map1.png');
+}
+
+#battleMap>.treasure, #battleMap2>.treasure {
+    width: 5%;
+    height: 7%;
+    top: 30.5%;
+    left: 49%;
+}
+
+
+/*Battle map2 page*/
+
+
+#battleMap2>#map {
+	background-image: url('../img/map/battle-map/battle-map2.png');
+}
+
+
+/*Battle map2 shadow page*/
+
+
+#battleMap2Shadow>#map {
+	background-image: url('../img/map/battle-map/battle-map2-shadow.png');
+}
+
+
+#battleMap2Shadow>.ship, #battleMap2Shadow>.treasure {
+    display: none;
+}

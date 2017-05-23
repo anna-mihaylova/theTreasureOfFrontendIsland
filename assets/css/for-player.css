@@ -1,0 +1,152 @@
+#forPlayerInfo {
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    top: 1%;
+    left: 19%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../img/player/for-player.png');
+    z-index: 15;
+    animation: divanimationleft 3s linear forwards;
+	cursor: url('../img/icons/cursor/cursor-23.png'), auto;
+}
+
+#forPlayerInfo div.for-player-info-container {
+    width: 40%;
+    height: 80%;
+    position: absolute;
+	left: 47%;
+    top: 12%;
+    z-index: 15;
+    animation: divanimationright 4s linear forwards;
+}
+
+div.for-player-info-container>.icon {
+    width: 10%;
+    height: 10%;
+    left: 5%;
+}
+
+div.for-player-info-container>p.p {
+	width: 20%;
+	height: 5%;
+    position: absolute;
+	left: 14%;
+	font-size: 1em;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #000;
+}
+
+div.for-player-info-container>p.p.value {
+	text-align: left;
+	width: 42%;
+	left: 35%;
+}
+
+div.for-player-info-container>.icon:hover {
+	background-color: transparent;
+    border: none;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    transition-duration: 2s;
+}
+
+div.for-player-info-container>.icon.player {
+	top: 1%;
+}
+
+div.for-player-info-container>#forPlayer, div.for-player-info-container>#forPlayerValue {
+	top: 6%;
+}
+
+div.for-player-info-container>.icon.play-games {
+	top: 12%;
+	background-size: 100% 70%;
+}
+
+div.for-player-info-container>#forPLayGames, div.for-player-info-container>#forPLayGamesValue {
+	top: 15%;
+}
+
+div.for-player-info-container>.icon.play-wins {
+	top: 20%;
+	background-size: 100% 70%;
+}
+
+div.for-player-info-container>#forPLayWins, div.for-player-info-container>#forPLayWinsValue {
+	top: 25%;
+}
+
+div.for-player-info-container>.icon.heart {
+	top: 31%;
+	background-size: 70% 70%;
+}
+
+div.for-player-info-container>#forHeart, div.for-player-info-container>#forHeartValue {
+	top: 35%;
+}
+
+div.for-player-info-container>.icon.treasure {
+	top: 40%;
+}
+
+div.for-player-info-container>#forTreasure, div.for-player-info-container>#forTreasureValue {
+	top: 45%;
+}
+
+div.for-player-info-container>.icon.map {
+	top: 50%;
+    background-size: 90% 80%;
+}
+
+div.for-player-info-container>#forMap, div.for-player-info-container>#forMapValue{
+	top: 55%;
+}
+
+div.for-player-info-container>#forMapValueOf {
+	top: 55%;
+	left: 39%;
+}
+
+div.for-player-info-container>.icon.flag {
+	top: 60%;
+}
+
+div.for-player-info-container>#forFlag, div.for-player-info-container>#forFlagValue{
+	top: 65%;
+}
+
+div.for-player-info-container>#forFlagValueOf {
+	top: 65%;
+	left: 39%;
+}
+
+div.for-player-info-container>.icon.bomb {
+	top: 70%;
+}
+
+div.for-player-info-container>#forBombValue, div.for-player-info-container>#forBomb {
+	top: 75%;
+}
+
+div.for-player-info-container>.icon.hook {
+	top: 80%;
+}
+
+div.for-player-info-container>#forHook, div.for-player-info-container>#forHookValue {
+	top: 85%;
+}
+
+div.for-player-info-container>.icon.pipe {
+	top: 90%;
+}
+
+div.for-player-info-container>#forPipe, div.for-player-info-container>#forPipeValue {
+	top: 95%;
+}
